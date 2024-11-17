@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "project-serena"
+version = "0.1.0"
+description = "Project Serena is an intelligent virtual assistant designed to elevate your dining experience. Seamlessly manage restaurant reservations, receive personalized menu recommendations tailored to your tastes, and handle special requests with ease. Whether you're planning a romantic evening, a family gathering, or a business lunch, Project Serena ensures a smooth and enjoyable booking process, making every meal memorable and hassle-free."
+authors = ["Michael Eco <michael.gunawan2002@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langsmith = "^0.1.143"
+langchain-anthropic = "^0.3.0"
+langchain-core = "^0.3.19"
+langgraph = "^0.2.50"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
